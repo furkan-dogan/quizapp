@@ -13,7 +13,6 @@ public class Question {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private String category;
     private String questionTitle;
     private String option1;
     private String option2;
@@ -21,5 +20,6 @@ public class Question {
     private String option4;
     private String correctAnswer;
     private String difficultyLevel;
+    private String category;
 
 }
